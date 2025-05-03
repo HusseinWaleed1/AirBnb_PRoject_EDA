@@ -1,26 +1,58 @@
 # AirBnb_PRoject_EDA
-# 🏠 NYC Airbnb 2019 - Exploratory Data Analysis (EDA)
+# 🏙️ NYC Airbnb 2019 - EDA Project
 
-## 📘 Project Overview
-This project is an exploratory data analysis of the Airbnb NYC 2019 dataset. It aims to uncover insights about hosts, pricing, neighborhoods, and property types.
+## 📊 Exploring New York's Airbnb Listings
 
-## 📂 Dataset
-- **Source:** [Airbnb Open Data (Kaggle)](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
-- **Description:** Contains information about listings such as host details, location, price, number of reviews, room type, and availability.
+![NYC Airbnb Map](repo.png)
 
-## 📊 Key Questions Explored
-- Which neighborhoods have the highest/lowest average prices?
-- What types of rooms are most common and how do they affect price?
-- Who are the busiest hosts?
-- Are there differences in demand across different areas?
+### 🔍 Overview
 
-## 🧰 Tools Used
+This project is an exploratory data analysis (EDA) of Airbnb listings in New York City in 2019.  
+The dataset includes information about hosts, room types, prices, locations, and reviews.
+
+### 📁 Dataset Info
+
+- Source: [Inside Airbnb](http://insideairbnb.com/)
+- Location: New York City, NY
+- Year: 2019
+- Size: ~49,000 listings
+
+### 🎯 Objectives
+
+- Understand host behavior and activity levels
+- Explore price differences by area and room type
+- Detect missing or inconsistent data
+- Visualize geographic distribution of listings
+- Identify trends in reviews and availability
+
+### 📌 Key Questions
+
+- Which neighbourhoods are the most popular?
+- Which room types are the most common and profitable?
+- Are there any outliers or missing data?
+- How are prices distributed across neighbourhood groups?
+
+### 🛠️ Technologies Used
+
 - Python
-- Pandas, NumPy
-- Seaborn, Matplotlib, Plotly
-- ydata-profiling
+- Pandas
+- Matplotlib / Seaborn
+- Plotly
+- Jupyter Notebook
 
-## 🧪 How to Run
-1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
+### 📈 Sample Visualizations
+
+- Pie charts showing room type distribution
+- Bar plots comparing average prices across neighbourhood groups
+- Histograms of listing prices
+- Interactive maps using Plotly
+
+### 📄 How to Use
+
+Clone the repo and run the notebook:
+
+```bash
+git clone https://github.com/yourusername/airbnb-eda.git
+cd airbnb-eda
+jupyter notebook
+
