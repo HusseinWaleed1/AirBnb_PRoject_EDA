@@ -3,7 +3,6 @@
 
 ## 📊 Exploring New York's Airbnb Listings
 
-![NYC Airbnb Map](repo.png)
 
 ### 🔍 Overview
 
